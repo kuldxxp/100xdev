@@ -11,7 +11,16 @@ body {
 
 .title {
     color: #0c5f74;
-    font-family: "Advent Pro", arial;
+    /* font-family: "Advent Pro", arial; */
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
     font-size: xx-large;
-    size: 100px;
+    /* size: 100px; */
 }
