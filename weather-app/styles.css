@@ -24,3 +24,20 @@ body {
     font-size: xx-large;
     /* size: 100px; */
 }
+
+#searchbar {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+/*    background-color: red;*/
+    margin: 190px 500px 10px 500px;
+    border-top-left-radius: 5px;
+    border: 1px dashed #0c5f74;
+}
+
+input {
+    width: 370px;
+    height: 27px;
+    border-radius: 5px;
+}
