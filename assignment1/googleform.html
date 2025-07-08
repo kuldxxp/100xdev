@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Google Form </title>
+
+        <style>
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select {
+                width: 96%;
+                height: 1.7em;
+                padding: 0.5em;
+                font-size: 1.1em;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="width: 45%; margin-left: auto; margin-right: auto; min-height: 100vh; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+            <header style="text-align: center; font-family: Verdana,serif; padding-top: 4px; font-size: 26px; display: flex; flex-direction: column">
+                <h1>Google Form</h1>
+            </header>
+
+            <main style="font-family: Verdana,serif; font-weight: 600; margin-left: 20px">
+                <form action="/submit" method="post">
+                    <div style="font-size: 25px">
+                        <label for="fname">First Name:</label> <br>
+                        <input type="text" id="fname" name="first_name">
+
+                        <label for="lname">Last Name:</label> <br>
+                        <input type="text" id="lname" name="last_name">
+
+                        <label for="email">Email ID:</label> <br>
+                        <input type="email" id="email" name="email_id">
+
+                        <label for="password">Password:</label> <br>
+                        <input type="password" id="password" name="password">
+                    </div>
+
+                    <fieldset>
+                        <legend style="font-size: 25px">Gender:</legend>
+
+                        <input type="radio" value="male" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" value="female" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" value="other" id="other" name="gender">
+                        <label for="other">Other</label>
+                    </fieldset> <br>
+
+                    <fieldset>
+                        <legend style="font-size: 25px">Interests:</legend>
+
+                        <input type="checkbox" value="sports" id="sports" name="interests">
+                        <label for="sports">Sports:</label>
+                        <input type="checkbox" value="music" id="music" name="interests">
+                        <label for="music">Music:</label> <br>
+                        <input type="checkbox" value="reading" id="reading" name="interests">
+                        <label for="reading">Reading:</label>
+                        <input type="checkbox" value="travelling" id="travelling" name="interests">
+                        <label for="travelling">Travelling:</label>
+                    </fieldset> <br>
+
+                    <div style="font-size: 25px">
+                        <label for="country">Country:</label> <br>
+                        <select name="country" id="country" style="width: 96%; font-size: 1em; padding: 0.5em">
+                            <option value="Aryavart">Aryavart</option>
+                            <option value="India">India</option>
+                            <option value="Bharat">Bharat</option>
+                            <option value="Vishwaguru">Vishwaguru</option>
+                            <option value="Hindustan">Hindustan</option>
+                        </select> <br>
+                    </div>
+
+                    <div style="text-align: center">
+                        <button style="background-color: lightgreen; color: white; cursor: pointer; border: none; font-size: 1.3em; width: 90%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
