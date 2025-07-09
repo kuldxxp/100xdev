@@ -1,0 +1,8 @@
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-doc-bg {
+    background-color: #f0f0f0;
+}
