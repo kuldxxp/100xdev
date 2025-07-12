@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Pirata+One&family=UnifrakturMaguntia&display=swap');
+/* DotGothic16(sans-serif), Dela Gothic One(sans-serif), Pirata One(system-ui), UnifrakturMaguntia(cursive) */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.firstimg, .secondimg, .thirdimg, .fourthimg {
+    background-position: center;
+    background-size: cover;
+    min-height: 590px;
+    background-attachment: fixed;
+}
+
+.firstimg {
+    background-image: url(public/lone-castle.jpeg);
+    opacity: 0.9;
+}
+
+.secondimg {
+    background-image: url(public/reaper-nigga.jpeg);
+}
+
+.thirdimg {
+    background-image: url(public/sermons.jpeg);
+}
+
+.fourthimg {
+    background-image: url(public/joseph.jpeg);
+    opacity: 0.9;
+}
+
+section {
+    text-align: center;
+    opacity: 0.8;
+    color: ivory;
+    font-family: DotGothic16, "sans-serif";
+    font-weight: 400;
+    font-size: larger;
+    padding: 3rem 5rem;
+
+    box-shadow: 0 0 5px 10px rgb(51, 2, 2);
+}
+
+.light > pre, .dark > pre {
+    font-family: UnifrakturMaguntia, "cursive";
+    font-weight: 400;
+    font-size: larger;
+    border: 0.1rem solid ivory;
+    padding-top: 20px;
+    border-radius: 10px;
+    letter-spacing: 0.11rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: relative; */
+}
+
+.img div {
+    color: aliceblue;
+    font-family: UnifrakturMaguntia, "cursive";
+    font-size: 2.2rem;
+    letter-spacing: 0.28rem;
+    text-shadow: 1.7px 1.7px rgb(192, 57, 57);
+
+    /* position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center; */
+}
