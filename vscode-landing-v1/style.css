@@ -227,6 +227,7 @@ header {
 #main3 > div {
     display: flex;
     justify-content: space-between;
+    margin-bottom: -20px;
 }
 
 #left2 {
@@ -254,7 +255,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 190px;
-    margin-right: 5.5em;
+    margin-right: 5em;
     margin-top: 2.3rem;
 }
 
@@ -279,4 +280,16 @@ ul {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
     color: #9ba3b4; 
     vertical-align: middle;
+}
+
+#main3 > div:last-child {
+    padding-bottom: 5rem;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #e9eaeb;
+    margin-bottom: 1rem;
 }
