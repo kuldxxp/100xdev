@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> pokefetch </title>
+    <title> pokéfetch </title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
-    <button onclick="pokeFetch()"> Fetch Pokemon </button>
-    <br>
+    <div id="header">
+        <div id="hchild">
+            <div>
+                Pokéfetch
+            </div>
+        </div>
+    </div>
 
-    <img src="" alt="pokemon sprite" id="pokemonSprite">
+    <div id="parent">
+        <div id="main">
+            <div id="parent2">
+                <div id="input">
+                    <div id="fetchbar">
+                        <input type="text" id="pokemonName" placeholder="Enter Pokémon Name">
+                    </div>
+
+                    <div id="btn">
+                        <button onclick="pokeFetch()"> Fetch Pokémon </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="output">
+                <img src="" alt="pokemon sprite" id="pokemonSprite">
+            </div>
+        </div>
+    </div>
+
 
     <script src="script.js"></script>
-
 </body>
 </html>
