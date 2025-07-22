@@ -150,7 +150,8 @@ header {
 }
 
 .edit-btn:hover {
-  background: var(--base-transparent-100);
+  /* background: var(--base-transparent-100); */
+  background: #527dff;
   transform: scale(1.05);
 }
 
