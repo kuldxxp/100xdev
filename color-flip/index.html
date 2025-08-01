@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>color flip!</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-flip</title>
 
-        <style>
-            #green {
-                background-color: green;
-            }
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div id="colors">
+            <div id="red" class="color">Red</div>
+            <div id="blue" class="color">Blue</div>
+            <div id="green" class="color">Green</div>
+            <div id="yourColor" class="color"> Your Color</div>
+        </div>
+    </div>
 
-            #red {
-                background-color: red;
-            }
+    <div id="resetContainer">
+        <div id="reset">reset</div>
+    </div>
 
-            #blue {
-                background-color: blue;
-            }
+    <script src="script.js"></script>
 
-            button {
-                width: 100px;
-                height: 40px;
-                border-radius: 5px;
-                margin: 5px;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h3> Color Flip </h3>
-
-        <button id="green" onclick="setColor('green')"> Green </button>
-        <button id="red" onclick="setColor('red')"> Red </button>
-        <button id="blue" onclick="setColor('blue')"> Blue </button>
-        <button onclick="randomColor()"> Random </button>
-
-        <script src="app.js"></script>
-    </body>
+</body>
 </html>
