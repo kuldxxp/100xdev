@@ -8,8 +8,8 @@ async function pokeFetch() {
     }
 
     const data = await response.json(); //converted to json
-    const pokemonSprite = data.sprites.front_default; //got the img from the data
-    const imgElement = document.getElementById("pokemonSprite"); //img element from the html
+    const pokemonSprite = data.sprites.front_default; //got the img from the json data
+    const imgElement = document.getElementById("pokemonSprite"); //get the img element from the html
 
     imgElement.src = pokemonSprite; 
     imgElement.style.display = "block"; //changing the display from none to block as the pokemon name went from "" to something
