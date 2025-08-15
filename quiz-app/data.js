@@ -1,5 +1,14 @@
 export const questions = [
     {
+        question: "What is the time complexity of binary search on a sorted array?",
+        answers: [
+            { option: 'O(n)', correct: false },
+            { option: 'O(log n)', correct: true },
+            { option: 'O(n log n)', correct: false },
+            { option: 'O(1)', correct: false }
+        ]
+    },
+    {
         question: "Which of the following sorting algorithms is stable?",
         answers: [
             { option: 'Quick Sort', correct: false },
