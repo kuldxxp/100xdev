@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "module": "server.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "bun server.js"
+  }
+}
